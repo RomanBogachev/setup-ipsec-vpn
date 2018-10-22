@@ -132,41 +132,6 @@ The scripts will backup existing config files before making changes, with `.old-
 
 The additional scripts <a href="extras/vpnupgrade.sh" target="_blank">vpnupgrade.sh</a> and <a href="extras/vpnupgrade_centos.sh" target="_blank">vpnupgrade_centos.sh</a> can be used to upgrade Libreswan (<a href="https://libreswan.org" target="_blank">website</a> | <a href="https://lists.libreswan.org/mailman/listinfo/swan-announce" target="_blank">mailing list</a>). Edit the `swan_ver` variable as necessary. Check installed version: `ipsec --version`
 
-## Bugs & Questions
 
-- Got a question? Please first search other people's comments <a href="https://gist.github.com/hwdsl2/9030462#comments" target="_blank">in this Gist</a> and <a href="https://blog.ls20.com/ipsec-l2tp-vpn-auto-setup-for-ubuntu-12-04-on-amazon-ec2/#disqus_thread" target="_blank">on my blog</a>.
-- Ask VPN related questions on these mailing lists: <a href="https://lists.libreswan.org/mailman/listinfo/swan" target="_blank">[1]</a> <a href="https://lists.strongswan.org/mailman/listinfo/users" target="_blank">[2]</a>, or read related articles: <a href="https://libreswan.org/wiki/Main_Page" target="_blank">[1]</a> <a href="https://wiki.gentoo.org/wiki/IPsec_L2TP_VPN_server" target="_blank">[2]</a> <a href="https://wiki.archlinux.org/index.php/L2TP/IPsec_VPN_client_setup" target="_blank">[3]</a>.
-- If you found a reproducible bug, open a <a href="https://github.com/hwdsl2/setup-ipsec-vpn/issues?q=is%3Aissue" target="_blank">GitHub Issue</a> to submit a bug report.
 
-## Uninstallation
 
-Please refer to <a href="docs/uninstall.md" target="_blank">Uninstall the VPN</a>.
-
-## See Also
-
-- <a href="https://github.com/hwdsl2/docker-ipsec-vpn-server" target="_blank">IPsec VPN Server on Docker</a>
-- <a href="https://github.com/jlund/streisand" target="_blank">Streisand</a>
-- <a href="https://github.com/SoftEtherVPN/SoftEtherVPN" target="_blank">SoftEther VPN</a>
-- <a href="https://github.com/breakwa11/shadowsocks-rss" target="_blank">ShadowsocksR</a>
-- <a href="https://github.com/Nyr/openvpn-install" target="_blank">OpenVPN Install</a>
-- <a href="https://github.com/ftao/vpn-deploy-playbook" target="_blank">VPN Deploy Playbook</a>
-- <a href="https://github.com/sockeye44/instavpn" target="_blank">Insta VPN</a>
-- <a href="https://github.com/quericy/one-key-ikev2-vpn" target="_blank">One Key IKEv2 VPN</a>
-- <a href="https://github.com/philpl/setup-strong-strongswan" target="_blank">Setup Strongswan</a>
-
-## Author
-
-**Lin Song** (linsongui@gmail.com)   
-- Final year U.S. PhD candidate, majoring in Electrical and Computer Engineering (ECE)
-- Actively seeking opportunities in areas such as Software or Systems Engineering
-- Contact me on LinkedIn: <a href="https://www.linkedin.com/in/linsongui" target="_blank">https://www.linkedin.com/in/linsongui</a>
-
-Thanks to <a href="https://github.com/hwdsl2/setup-ipsec-vpn/graphs/contributors" target="_blank">all contributors</a> to this project!
-
-## License
-
-Copyright (C) 2014-2016&nbsp;Lin Song&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/linsongui" target="_blank"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View my profile on LinkedIn"></a>    
-Based on <a href="https://github.com/sarfata/voodooprivacy" target="_blank">the work of Thomas Sarlandie</a> (Copyright 2012)
-
-This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>  
-Attribution required: please include my name in any derivative and let me know how you have improved it!
